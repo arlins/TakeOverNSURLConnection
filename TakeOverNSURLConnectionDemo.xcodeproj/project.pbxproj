@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54A6E7CB1F189625000C0F27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A6E7CA1F189625000C0F27 /* main.m */; };
+		54A6E7CE1F189625000C0F27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A6E7CD1F189625000C0F27 /* AppDelegate.m */; };
+		54A6E7D11F189625000C0F27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A6E7D01F189625000C0F27 /* ViewController.m */; };
+		54A6E7D41F189625000C0F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A6E7D21F189625000C0F27 /* Main.storyboard */; };
+		54A6E7D61F189625000C0F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A6E7D51F189625000C0F27 /* Assets.xcassets */; };
+		54A6E7D91F189625000C0F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A6E7D71F189625000C0F27 /* LaunchScreen.storyboard */; };
+		54A6E7E21F18A675000C0F27 /* CustomizeURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A6E7E11F18A675000C0F27 /* CustomizeURLProtocol.m */; };
+		54A6E8721F1C973C000C0F27 /* NSURLSession+NSURLProtocolSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A6E8711F1C973C000C0F27 /* NSURLSession+NSURLProtocolSupport.m */; };
+		54A6E8791F20482A000C0F27 /* NSURLProtocolMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A6E8781F20482A000C0F27 /* NSURLProtocolMonitor.m */; };
+		54A6E87C1F20484D000C0F27 /* NSURLSessionProtocolMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A6E87B1F20484D000C0F27 /* NSURLSessionProtocolMonitor.m */; };
+		54A6E87F1F20520D000C0F27 /* NSObject+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A6E87E1F20520D000C0F27 /* NSObject+Debug.m */; };
+		7377156777BFB635149D58C1 /* libPods-TakeOverNSURLConnectionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20184961076CAE27E399730B /* libPods-TakeOverNSURLConnectionDemo.a */; };
+		DAF3C1221F614A9F000F10F3 /* TOASIHTTPRequesMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3C1191F614A9F000F10F3 /* TOASIHTTPRequesMaker.m */; };
+		DAF3C1231F614A9F000F10F3 /* TOHTTPRequesMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3C11B1F614A9F000F10F3 /* TOHTTPRequesMaker.m */; };
+		DAF3C1241F614A9F000F10F3 /* TONSURLConnectionMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3C11D1F614A9F000F10F3 /* TONSURLConnectionMaker.m */; };
+		DAF3C1251F614A9F000F10F3 /* TONSURLSessionBlockMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3C11F1F614A9F000F10F3 /* TONSURLSessionBlockMaker.m */; };
+		DAF3C1261F614A9F000F10F3 /* TONSURLSessionMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF3C1211F614A9F000F10F3 /* TONSURLSessionMaker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20184961076CAE27E399730B /* libPods-TakeOverNSURLConnectionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TakeOverNSURLConnectionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A6E7C61F189625000C0F27 /* TakeOverNSURLConnectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeOverNSURLConnectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A6E7CA1F189625000C0F27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54A6E7CC1F189625000C0F27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54A6E7CD1F189625000C0F27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54A6E7CF1F189625000C0F27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54A6E7D01F189625000C0F27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54A6E7D31F189625000C0F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54A6E7D51F189625000C0F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54A6E7D81F189625000C0F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54A6E7DA1F189625000C0F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A6E7E01F18A675000C0F27 /* CustomizeURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizeURLProtocol.h; sourceTree = "<group>"; };
+		54A6E7E11F18A675000C0F27 /* CustomizeURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizeURLProtocol.m; sourceTree = "<group>"; };
+		54A6E8701F1C973C000C0F27 /* NSURLSession+NSURLProtocolSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+NSURLProtocolSupport.h"; sourceTree = "<group>"; };
+		54A6E8711F1C973C000C0F27 /* NSURLSession+NSURLProtocolSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+NSURLProtocolSupport.m"; sourceTree = "<group>"; };
+		54A6E8771F20482A000C0F27 /* NSURLProtocolMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLProtocolMonitor.h; sourceTree = "<group>"; };
+		54A6E8781F20482A000C0F27 /* NSURLProtocolMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLProtocolMonitor.m; sourceTree = "<group>"; };
+		54A6E87A1F20484D000C0F27 /* NSURLSessionProtocolMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLSessionProtocolMonitor.h; sourceTree = "<group>"; };
+		54A6E87B1F20484D000C0F27 /* NSURLSessionProtocolMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionProtocolMonitor.m; sourceTree = "<group>"; };
+		54A6E87D1F20520D000C0F27 /* NSObject+Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Debug.h"; sourceTree = "<group>"; };
+		54A6E87E1F20520D000C0F27 /* NSObject+Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Debug.m"; sourceTree = "<group>"; };
+		73ADA5936DAACE0E05467EB1 /* Pods-TakeOverNSURLConnectionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeOverNSURLConnectionDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakeOverNSURLConnectionDemo/Pods-TakeOverNSURLConnectionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7D0E77BC6E85CCD81453905D /* Pods-TakeOverNSURLConnectionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakeOverNSURLConnectionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakeOverNSURLConnectionDemo/Pods-TakeOverNSURLConnectionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DAF3C1181F614A9F000F10F3 /* TOASIHTTPRequesMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOASIHTTPRequesMaker.h; sourceTree = "<group>"; };
+		DAF3C1191F614A9F000F10F3 /* TOASIHTTPRequesMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOASIHTTPRequesMaker.m; sourceTree = "<group>"; };
+		DAF3C11A1F614A9F000F10F3 /* TOHTTPRequesMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOHTTPRequesMaker.h; sourceTree = "<group>"; };
+		DAF3C11B1F614A9F000F10F3 /* TOHTTPRequesMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOHTTPRequesMaker.m; sourceTree = "<group>"; };
+		DAF3C11C1F614A9F000F10F3 /* TONSURLConnectionMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TONSURLConnectionMaker.h; sourceTree = "<group>"; };
+		DAF3C11D1F614A9F000F10F3 /* TONSURLConnectionMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TONSURLConnectionMaker.m; sourceTree = "<group>"; };
+		DAF3C11E1F614A9F000F10F3 /* TONSURLSessionBlockMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TONSURLSessionBlockMaker.h; sourceTree = "<group>"; };
+		DAF3C11F1F614A9F000F10F3 /* TONSURLSessionBlockMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TONSURLSessionBlockMaker.m; sourceTree = "<group>"; };
+		DAF3C1201F614A9F000F10F3 /* TONSURLSessionMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TONSURLSessionMaker.h; sourceTree = "<group>"; };
+		DAF3C1211F614A9F000F10F3 /* TONSURLSessionMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TONSURLSessionMaker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54A6E7C31F189625000C0F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7377156777BFB635149D58C1 /* libPods-TakeOverNSURLConnectionDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FA02C7D5F7FF47FFBDB2A4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73ADA5936DAACE0E05467EB1 /* Pods-TakeOverNSURLConnectionDemo.debug.xcconfig */,
+				7D0E77BC6E85CCD81453905D /* Pods-TakeOverNSURLConnectionDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54A6E7BD1F189625000C0F27 = {
+			isa = PBXGroup;
+			children = (
+				54A6E7C81F189625000C0F27 /* TakeOverNSURLConnectionDemo */,
+				54A6E7C71F189625000C0F27 /* Products */,
+				0FA02C7D5F7FF47FFBDB2A4B /* Pods */,
+				97629CC7C6A871AE7817664F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54A6E7C71F189625000C0F27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54A6E7C61F189625000C0F27 /* TakeOverNSURLConnectionDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54A6E7C81F189625000C0F27 /* TakeOverNSURLConnectionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3C1171F614A9F000F10F3 /* HTTPRequestRunner */,
+				54A6E8761F2047F5000C0F27 /* ProtocolMonitor */,
+				54A6E7CC1F189625000C0F27 /* AppDelegate.h */,
+				54A6E7CD1F189625000C0F27 /* AppDelegate.m */,
+				54A6E7CF1F189625000C0F27 /* ViewController.h */,
+				54A6E7D01F189625000C0F27 /* ViewController.m */,
+				54A6E7D21F189625000C0F27 /* Main.storyboard */,
+				54A6E7D51F189625000C0F27 /* Assets.xcassets */,
+				54A6E7D71F189625000C0F27 /* LaunchScreen.storyboard */,
+				54A6E7E01F18A675000C0F27 /* CustomizeURLProtocol.h */,
+				54A6E7E11F18A675000C0F27 /* CustomizeURLProtocol.m */,
+				54A6E8701F1C973C000C0F27 /* NSURLSession+NSURLProtocolSupport.h */,
+				54A6E8711F1C973C000C0F27 /* NSURLSession+NSURLProtocolSupport.m */,
+				54A6E7C91F189625000C0F27 /* Supporting Files */,
+			);
+			path = TakeOverNSURLConnectionDemo;
+			sourceTree = "<group>";
+		};
+		54A6E7C91F189625000C0F27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54A6E7DA1F189625000C0F27 /* Info.plist */,
+				54A6E7CA1F189625000C0F27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54A6E8761F2047F5000C0F27 /* ProtocolMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				54A6E8771F20482A000C0F27 /* NSURLProtocolMonitor.h */,
+				54A6E8781F20482A000C0F27 /* NSURLProtocolMonitor.m */,
+				54A6E87A1F20484D000C0F27 /* NSURLSessionProtocolMonitor.h */,
+				54A6E87B1F20484D000C0F27 /* NSURLSessionProtocolMonitor.m */,
+				54A6E87D1F20520D000C0F27 /* NSObject+Debug.h */,
+				54A6E87E1F20520D000C0F27 /* NSObject+Debug.m */,
+			);
+			path = ProtocolMonitor;
+			sourceTree = "<group>";
+		};
+		97629CC7C6A871AE7817664F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20184961076CAE27E399730B /* libPods-TakeOverNSURLConnectionDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAF3C1171F614A9F000F10F3 /* HTTPRequestRunner */ = {
+			isa = PBXGroup;
+			children = (
+				DAF3C1181F614A9F000F10F3 /* TOASIHTTPRequesMaker.h */,
+				DAF3C1191F614A9F000F10F3 /* TOASIHTTPRequesMaker.m */,
+				DAF3C11A1F614A9F000F10F3 /* TOHTTPRequesMaker.h */,
+				DAF3C11B1F614A9F000F10F3 /* TOHTTPRequesMaker.m */,
+				DAF3C11C1F614A9F000F10F3 /* TONSURLConnectionMaker.h */,
+				DAF3C11D1F614A9F000F10F3 /* TONSURLConnectionMaker.m */,
+				DAF3C11E1F614A9F000F10F3 /* TONSURLSessionBlockMaker.h */,
+				DAF3C11F1F614A9F000F10F3 /* TONSURLSessionBlockMaker.m */,
+				DAF3C1201F614A9F000F10F3 /* TONSURLSessionMaker.h */,
+				DAF3C1211F614A9F000F10F3 /* TONSURLSessionMaker.m */,
+			);
+			path = HTTPRequestRunner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54A6E7C51F189625000C0F27 /* TakeOverNSURLConnectionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A6E7DD1F189625000C0F27 /* Build configuration list for PBXNativeTarget "TakeOverNSURLConnectionDemo" */;
+			buildPhases = (
+				4240C63ACDE84AEF2AE50CB6 /* [CP] Check Pods Manifest.lock */,
+				54A6E7C21F189625000C0F27 /* Sources */,
+				54A6E7C31F189625000C0F27 /* Frameworks */,
+				54A6E7C41F189625000C0F27 /* Resources */,
+				B25CC4A92197B6E2608A7FCB /* [CP] Embed Pods Frameworks */,
+				E83CEF212DE2A05F46A4A8F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeOverNSURLConnectionDemo;
+			productName = TakeOverNSURLConnectionDemo;
+			productReference = 54A6E7C61F189625000C0F27 /* TakeOverNSURLConnectionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54A6E7BE1F189625000C0F27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = uc;
+				TargetAttributes = {
+					54A6E7C51F189625000C0F27 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 54A6E7C11F189625000C0F27 /* Build configuration list for PBXProject "TakeOverNSURLConnectionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54A6E7BD1F189625000C0F27;
+			productRefGroup = 54A6E7C71F189625000C0F27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54A6E7C51F189625000C0F27 /* TakeOverNSURLConnectionDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54A6E7C41F189625000C0F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A6E7D91F189625000C0F27 /* LaunchScreen.storyboard in Resources */,
+				54A6E7D61F189625000C0F27 /* Assets.xcassets in Resources */,
+				54A6E7D41F189625000C0F27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4240C63ACDE84AEF2AE50CB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TakeOverNSURLConnectionDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B25CC4A92197B6E2608A7FCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakeOverNSURLConnectionDemo/Pods-TakeOverNSURLConnectionDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E83CEF212DE2A05F46A4A8F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakeOverNSURLConnectionDemo/Pods-TakeOverNSURLConnectionDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54A6E7C21F189625000C0F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF3C1231F614A9F000F10F3 /* TOHTTPRequesMaker.m in Sources */,
+				54A6E8791F20482A000C0F27 /* NSURLProtocolMonitor.m in Sources */,
+				DAF3C1241F614A9F000F10F3 /* TONSURLConnectionMaker.m in Sources */,
+				54A6E87F1F20520D000C0F27 /* NSObject+Debug.m in Sources */,
+				54A6E7D11F189625000C0F27 /* ViewController.m in Sources */,
+				54A6E8721F1C973C000C0F27 /* NSURLSession+NSURLProtocolSupport.m in Sources */,
+				54A6E7CE1F189625000C0F27 /* AppDelegate.m in Sources */,
+				54A6E87C1F20484D000C0F27 /* NSURLSessionProtocolMonitor.m in Sources */,
+				DAF3C1261F614A9F000F10F3 /* TONSURLSessionMaker.m in Sources */,
+				54A6E7E21F18A675000C0F27 /* CustomizeURLProtocol.m in Sources */,
+				DAF3C1221F614A9F000F10F3 /* TOASIHTTPRequesMaker.m in Sources */,
+				54A6E7CB1F189625000C0F27 /* main.m in Sources */,
+				DAF3C1251F614A9F000F10F3 /* TONSURLSessionBlockMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54A6E7D21F189625000C0F27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A6E7D31F189625000C0F27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54A6E7D71F189625000C0F27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A6E7D81F189625000C0F27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54A6E7DB1F189625000C0F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54A6E7DC1F189625000C0F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54A6E7DE1F189625000C0F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73ADA5936DAACE0E05467EB1 /* Pods-TakeOverNSURLConnectionDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TakeOverNSURLConnectionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dps.TakeOverNSURLConnectionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54A6E7DF1F189625000C0F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0E77BC6E85CCD81453905D /* Pods-TakeOverNSURLConnectionDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TakeOverNSURLConnectionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dps.TakeOverNSURLConnectionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54A6E7C11F189625000C0F27 /* Build configuration list for PBXProject "TakeOverNSURLConnectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A6E7DB1F189625000C0F27 /* Debug */,
+				54A6E7DC1F189625000C0F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A6E7DD1F189625000C0F27 /* Build configuration list for PBXNativeTarget "TakeOverNSURLConnectionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A6E7DE1F189625000C0F27 /* Debug */,
+				54A6E7DF1F189625000C0F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54A6E7BE1F189625000C0F27 /* Project object */;
+}
